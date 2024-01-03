@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Đại học Công nghệ Đông Á</title>
+<link rel="stylesheet" href="/myapp/btnhom/fontend/view/css/style2.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.slick/1.8.1/slick.css"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.slick/1.8.1/slick-theme.css"/>
+<link type="image/x-icon" rel="shortcut icon" href="http://daihoccongnghedonga.edu.vn/Uploads/2196/images/favicon.png" />
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script src="https://cdn.jsdelivr.net/jquery.slick/1.8.1/slick.min.js"></script>
+</head>
+<body>
+  <!-- Top Section with Tel and Search -->
+  <div class="top-section">
+    <div class="tel-search">
+      <div class="tel">EAUT | Nhóm 1 </div>
+      <div class="search">
+        <img src="/myapp/btnhom/fontend/view/images/f2e2d3ff-c0ef-4822-8913-a89182d4d811.png" alt="Search">
+      </div>
+      
+    
+      <a href="/myapp/btnhom/backend/login.php">
+        <button class="student-button"> Đăng Nhập </button>
+      </a>
+      <a href="/myapp/btnhom/backend/login.php">
+        <button class="student-button"> Đăng Ký </button>
+      </a>
+    </div>
+  </div>
+<!-- Logo -->
+  <div class="header">
+    <div class="container-logo">
+      <img src="/myapp/btnhom/fontend/view/images/logo-1.png" alt="Logo Trường Đại học Đông Á">
+      <!-- Flags for Language Switch -->
+    </div>
+  
+    <!-- Buttons for Admissions and Students -->
+    <div class="admission-student-buttons"> 
+        <a href="">
+        <button class="student-button">Trang Chủ </button>
+      </a>
+      <a href="/myapp/btnhom/backend/login.php">
+        <button class="admission-button">Tuyển Sinh</button>
+      </a>
+      <a href="index.html">
+        <button class="student-button">Thông Tin</button>
+      </a>
+      <a href="index.html">
+        <button class="student-button">Tin Tức</button>
+      </a>
+      
+    </div>
+  </div>
+  
+
+  <header>
+    
+  </header>
+<!-- Slider Section -->
+<aside id="slider" class="slider">
+<div class="container-slider">
+  <img src="/myapp/btnhom/fontend/view/images/banner.png" alt="Slide 1">
+  <img src="/myapp/btnhom/fontend/view/images/AnyConv.com__bn6.webp" alt="Slide 2">
+  <img src="/myapp/btnhom/fontend/view/images/Untitled-1.jpg" alt="Slide 3">
+  <!-- Add more slides as needed -->
+</div>
+<div class="slider-dots">
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+</div>
+<div class="arrow left-arrow" id="leftArrow">&lt;</div>
+<div class="arrow right-arrow" id="rightArrow">&gt;</div>
+</aside>
+<div class="items">
+<h2>TOP 5 LÝ DO SINH VIÊN LỰA CHỌN EAUT</h2>
+<div class="item-group">
+  <div class="item">
+    <div class="iconbox position-relative">
+      <div class="icon-container">
+        <img src="/myapp/btnhom/fontend/view/images/ranking-star-solid.svg" alt="Icon 1">
+      </div>
+    </div>
+    <a class="main dislay-block ladi ladi-msg-name" data-id="729925"><span style="color: rgb(244, 113, 33);"><span style="font-size: 2.5em;">5</span></span> SAO</a>
+    <div class="sub ladi ladi-msg-des" data-id="729925">CHƯƠNG TRÌNH ĐÀO TẠO CHẤT LƯỢNG</div>
+  </div>
+
+  <div class="item">
+    <div class="iconbox position-relative">
+      <div class="icon-container">
+        <img src="/myapp/btnhom/fontend/view/images/target.png" alt="Icon 2">
+      </div>
+    </div>
+    <a class="main dislay-block ladi ladi-msg-name" data-id="729926">NĂM <span style="color: rgb(244, 113, 33);"><span style="font-size: 2.5em;">1</span></span></a>
+    <div class="sub ladi ladi-msg-des" data-id="729926">SINH VIÊN THỰC TẬP THỰC TẾ TỪ NĂM NHẤT</div>
+  </div>
+
+  <div class="item">
+    <div class="iconbox position-relative">
+      <div class="icon-container">
+        <img src="/myapp/btnhom/fontend/view/images/Icon-student-png.png" alt="Icon 3">
+      </div>
+    </div>
+    <a class="main dislay-block ladi ladi-msg-name" data-id="729927"><span style="color: rgb(244, 113, 33);"><span style="font-size: 2.5em;">96%</span></span></a>
+    <div class="sub ladi ladi-msg-des" data-id="729927">SINH VIÊN CÓ VIỆC LÀM SAU TỐT NGHIỆP</div>
+  </div>
+</div>
+
+<div class="item-group bottom">
+  <div class="item">
+    <div class="iconbox position-relative">
+      <div class="icon-container">
+        <img src="/myapp/btnhom/fontend/view/images/25437.png" alt="Icon 4">
+      </div>
+    </div>
+    <a class="main dislay-block ladi ladi-msg-name" data-id="729929"><span style="color: rgb(244, 113, 33);"><span style="font-size: 2.5em;">10+</span></span> NGHÌN</a>
+    <div class="sub ladi ladi-msg-des" data-id="729929">SINH VIÊN ĐANG THEO HỌC TẠI TRƯỜNG</div>
+  </div>
+
+  <div class="item">
+    <div class="iconbox position-relative">
+      <div class="icon-container">
+        <img src="/myapp/btnhom/fontend/view/images/co.png" alt="Icon 5">
+      </div>
+    </div>
+    <a class="main dislay-block ladi ladi-msg-name" data-id="729928">Top <span style="color: rgb(244, 113, 33);"><span style="font-size: 2.5em;">1</span></span></a>
+    <div class="sub ladi ladi-msg-des" data-id="729928">MÔ HÌNH ĐÀO TẠO TIÊN PHONG ACTIVE LEARNING - THỰC HÀNH ỨNG DỤNG</div>
+  </div>
+</div>
+</div>
+
+<main>
+  <div class="container">
+    <h2>CÁC NGÀNH ĐÀO TẠO</h2>
+  </div>
+  
+  <div class="buttons">
+    <button class="btn" id="economics">KHỐI NGÀNH KINH TẾ XÃ HỘI</button>
+    <button class="btn" id="technology">KHỐI NGÀNH CÔNG NGHỆ KỸ THUẬT</button>
+    <button class="btn" id="health">KHỐI NGÀNH SỨC KHỎE</button>
+  </div>
+  <section class="content">
+    <!-- Ngành Kinh tế xã hội -->
+    <div class="major" id="economics">
+      <div class="major-details">
+        <ul>
+          <li>
+            <img src="/myapp/btnhom/fontend/view/images/NGANH LUAT.png" alt="Major"></img>
+            <div class="major-description">
+              <h3>NGÀNH LUẬT</h3>
+              <p>Theo báo cáo mới đây, chỉ riêng chức danh Tư pháp sẽ cần trên 23.000 nhân sự vào năm 2023. 
+              </p>
+            </div>
+            
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <img src="/myapp/btnhom/fontend/view/images/ngon ngu anh.png" alt="Major"></img>
+            <div class="major-description">
+              <h3>NGÀNH NGÔN NGỮ ANH</h3>
+              <p>Ngành Ngôn ngữ Anh được đánh giá là một trong những ngành triển vọng nhất thời kỳ hội nhập.
+              </p>
+            </div>
+            
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <img src="/myapp/btnhom/fontend/view/images/quan tri kinh doanh he quoc te.jpg" alt="Major"></img>
+            <div class="major-description">
+              <h3>QUẢN TRỊ KINH DOANH HỆ QUỐC TẾ</h3>
+              <p>Sinh viên ngành Quản trị kinh doanh chất lượng cao của Đại học Công nghệ Đông Á được đầu tư và ưu tiên mọi mặt.
+              </p>
+            </div>
+            
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <img src="/myapp/btnhom/fontend/view/images/KE TOAN.jpg" alt="Major"></img>
+            <div class="major-description">
+              <h3>NGÀNH KẾ TOÁN</h3>
+              <p>Ngành kế toán là một trong những nghiệp vụ quan trọng số 1 trong doanh nghiệp. 
+              </p>
+            </div>
+            
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <img src="/myapp/btnhom/fontend/view/images/quan tri kinh doanh.jpg" alt="Major"></img>
+            <div class="major-description">
+              <h3>NGÀNH QUẢN TRỊ KINH DOANH</h3>
+              <p>Ngành quản trị kinh doanh (QTKD) là một trong những ngành học đóng vai trò quan trong trong nền kinh tế
+              </p>
+            </div>
+            
+          </li>
+        </ul>
+        
+        <ul>
+          <li>
+            <img src="/myapp/btnhom/fontend/view/images/tai chinh ngan hang.jpg" alt="Major"></img>
+            <div class="major-description">
+              <h3>NGÀNH TÀI CHÍNH NGÂN HÀNG</h3>
+              <p>Ngành Tài Chính – Ngân Hàng là một trong những ngành học được đông đảo thí sinh quan tâm tìm hiểu và lựa chọn
+              </p>
+            </div>
+            
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <img src="/myapp/btnhom/fontend/view/images/quan tri khac san.gif" alt="Major"></img>
+            <div class="major-description">
+              <h3>NGÀNH QUẢN TRỊ KHÁCH SẠN</h3>
+              <p>Ngành Quản Trị Khách Sạn là một trong những ngành nghề vô cùng hấp dẫn và chưa từng rơi khỏi vị trí những nghề nghiệp được giới trẻ ưu tiên lựa chọn hàng đầu
+              </p>
+            </div>
+            
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <img src="/myapp/btnhom/fontend/view/images/marketing.jpg" alt="Major"></img>
+            <div class="major-description">
+              <h3>NGÀNH MARKETING</h3>
+              <p>Với sự phát triển của nền kinh tế thị trường hiện nay, ngành Marketing trở thành một trong 3 ngành học dẫn đầu trong thời đại 4.0 dành cho GEN Z.
+              </p>
+            </div>
+            
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <img src="/myapp/btnhom/fontend/view/images/QUAN TRi va du lich lu hanh.jpg" alt="Major"></img>
+            <div class="major-description">
+              <h3>QUẢN TRỊ DỊCH VỤ DU LỊCH VÀ LỮ HÀNH</h3>
+              <p>Trong nền kinh tế – xã hội hiện đại, ngành Quản trị dịch vụ du lịch và lữ hành là một trong những ngành học dẫn đầu về nhu cầu nhân lực, có mức lương cao
+              </p>
+            </div>
+            
+          </li>
+        </ul>
+      </div>
+    </div>
+  
+    <!-- Ngành Công nghệ kỹ thuật -->
+    <div class="major" id="technology">
+      <div class="major-details">
+        <ul>
+          <li>
+            <img src="/myapp/btnhom/fontend/view/images/che tao may.jpg" alt="Technology Image 1">
+            <div class="major-description"><h3>CÔNG NGHỆ CHẾ TẠO MÁY</h3>
+            <p>Công Nghệ Chế Tạo Máy là ngành mũi nhọn trong việc chế tạo ra các loại máy móc, thiết bị sản xuất</p></div>
+          </li>
+          </ul>
+          <ul>
+          <li>
+            <img src="/myapp/btnhom/fontend/view/images/ky thuat dien tu.jpg" alt="Technology Image 1">
+            <div class="major-description"><h3>CÔNG NGHỆ KT ĐIỆN – ĐIỆN TỬ</h3>
+            <p>Công nghệ kỹ thuật Điện – Điện tử luôn là một thành phần không thể thiếu trong quá trình phát triển công nghiệp hóa hiện đại hóa đất nước.</p></div>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <img src="/myapp/btnhom/fontend/view/images/cntt.jpg" alt="Technology Image 1">
+            <div class="major-description"><h3>NGÀNH CÔNG NGHỆ THÔNG TIN</h3>
+            <p>Trong bối cảnh hiện nay của Việt Nam, ngành Công nghệ thông tin (CNTT) là một trong những ngành có tốc độ tăng trưởng cao và bền vững (30%/năm).</p></div>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <img src="/myapp/btnhom/fontend/view/images/cn o to.jpg" alt="Technology Image 1">
+            <div class="major-description"><h3>CÔNG NGHỆ KỸ THUẬT Ô TÔ</h3>
+            <p>Công nghệ kỹ thuật ô tô là ngành quan trọng, cần ưu tiên phát triển để góp phần công nghiệp hóa đất nước.</p></div>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <img src="/myapp/btnhom/fontend/view/images/tu dong hoa.jpg" alt="Technology Image 1">
+            <div class="major-description"><h3>KT ĐIỀU KHIỂN – TỰ ĐỘNG HOÁ</h3>
+            <p>Ngành công nghệ kỹ thuật điều khiển – tự động hoá đang trở thành ngành học thiết yếu nhất bởi sự tác động của cuộc cách mạng công nghiệp 4.0</p></div>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <img src="/myapp/btnhom/fontend/view/images/nhiet dien lanh.jpg" alt="Technology Image 1">
+            <div class="major-description"><h3>KỸ THUẬT NHIỆT – ĐIỆN LẠNH</h3>
+            <p>Kỹ thuật Nhiệt có vai trò quan trọng trong quá trình sản xuất công nghiệp. Đây là ngành tỷ lệ ra trường có việc làm thuộc Top 5 ngành tỷ lệ ra trường có việc làm cao nhất khối ngành kỹ thuật.</p></div>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <img src="/myapp/btnhom/fontend/view/images/xay dung.jpg" alt="Technology Image 1">
+            <div class="major-description"><h3>NGÀNH KỸ THUẬT XÂY DỰNG</h3>
+            <p>Ngành Kỹ thuật Xây dựng là một ngành học vô cùng hấp dẫn đặc biệt đối với các bạn trẻ bởi tính thời đại của nó.</p></div>
+          </li> 
+        </ul>
+      </div>
+    </div>
+  
+    <!-- Ngành Sức khỏe -->
+    <div class="major" id="health">
+      <div class="major-details">
+        <ul>
+          <li>
+            <img src="/myapp/btnhom/fontend/view/images/cong nghe thuc pham.jpg" alt="Technology Image 1">
+            <div class="major-description"><h3>NGÀNH CÔNG NGHỆ THỰC PHẨM</h3>
+            <p>Ngành Công nghệ thực phẩm là gì? Ra trường có dễ xin việc hay không? Cùng EAUT tìm hiểu các thông tin ngành Công nghệ thực phẩm: thi khối gì, bao nhiêu điểm, review ngành,…</p></div>
+          </li> 
+        </ul>
+        <ul>
+          <li>
+            <img src="/myapp/btnhom/fontend/view/images/DIEU DUONG.jpg" alt="Technology Image 1">
+            <div class="major-description"><h3>NGÀNH ĐIỀU DƯỠNG</h3>
+            <p>Ngành Điều dưỡng được đông đảo thí sinh quan tâm tìm hiểu và lựa chọn bởi triển vọng nghề nghiệp của sinh viên tốt nghiệp ngành là vô cùng rộng mở</p></div>
+          </li> 
+        </ul>
+      </div>
+    </div>
+  </section>
+
+<!-- Phần Tuyển sinh -->
+<section class="admissions">
+  <div class="container">
+    <h3>THÔNG TIN TUYỂN SINH</h3>
+    <h2>HỆ ĐẠI HỌC CHÍNH QUY 2023</h2>
+      <div class="admissions-buttons">
+  <button type="button" onclick="showTable('technology')">KỸ THUẬT</button>
+  <button type="button" onclick="showTable('Socioeconomic')">KINH TẾ - XÃ HỘI</button>
+  <button type="button" onclick="showTable('health')">SỨC KHỎE</button>
+  <button type="button" onclick="showTable('english')">HỆ ĐÀO TẠO BẰNG TIẾNG ANH</button>
+</div>
+  <div id="technology-table" class="table-container">
+    <table class="technology">
+      <p>
+        Trường Đại học Công nghệ Đông Á là trường đại học ứng dụng, đào tạo đa ngành với 3 hệ: Đại học và Sau đại học cùng nhiều loại hình đào tạo: Liên thông và Chính quy. Hiện nay, Trường đang đào tạo 17 ngành đại học chính quy và 02 ngành Sau đại học (Kế toán, Quản trị kinh doanh).
+      </p>
+      <thead>
+        <tr>
+          <th>TÊN NGÀNH</th>
+          <th>MÃ NGÀNH</th>
+          <th>TỔ HỢP XÉT TUYỂN</th>
+          <th>THỜI GIAN ĐÀO TẠO</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Công nghệ Thông tin</td>
+          <td>7480201</td>
+          <td rowspan="7">A00, A01, A02, D01</td>
+          <td rowspan="8">9 Kỳ học (4,5 năm)</td>
+        </tr>
+        <tr>
+          <td>Công nghệ Chế tạo máy</td>
+          <td>7510202</td>
+        </tr>
+        <tr>
+          <td>Công nghệ Kỹ thuật Ô tô</td>
+          <td>7510205</td>
+        </tr>
+        <tr>
+          <td>Công nghệ Kỹ thuật Nhiệt (Nhiệt - Điện lạnh)</td>
+          <td>7510206</td>
+        </tr>
+        <tr>
+          <td>Công nghệ Kỹ thuật Điều khiển - Tự động hóa</td>
+          <td>7510303</td>
+        </tr>
+        <tr>
+          <td>Công nghệ Kỹ thuật Điện - Điện tử</td>
+          <td>7510301</td>
+        </tr>
+        <tr>
+          <td>Công nghệ Xây dựng</td>
+          <td>7580201</td>
+        </tr>
+        <tr>
+          <td>Công nghệ Thực phẩm</td>
+          <td>7540101</td>
+          <td>A00, A02, B00, D07</td>
+
+        </tr>
+      </tbody>
+    </table>
+    <ul>
+      <p>Trường Đại học Công nghệ Đông Á tuyển sinh bằng hình thức xét tuyển theo 3 phương thức:</p>
+      <li>Phương thức 1: Xét tuyển – Xét tuyển dựa trên học bạ THPT – Xét tuyển dựa trên kết quả thi THPT Quốc gia.</li>
+      <li>Phương thức 2: Kết hợp giữa thi tuyển và xét tuyển</li>
+      <li>Phương thức 3: Sử dụng kết quả thi của kì thi đánh giá năng lực và kết quả thi đánh giá tư duy</li>
+    </ul>
+  </div>
+  <!-- Socioeconomic Table -->
+  <div id="Socioeconomic-table" class="table-container hidden">
+<table class="Socioeconomic">
+<p>
+  Trường Đại học Công nghệ Đông Á là trường đại học ứng dụng, đào tạo đa ngành với 3 hệ: Đại học và Sau đại học cùng nhiều loại hình đào tạo: Liên thông và Chính quy. Hiện nay, Trường đang đào tạo 17 ngành đại học chính quy và 02 ngành Sau đại học (Kế toán, Quản trị kinh doanh).
+</p>
+<thead>
+  <tr>
+    <th>TÊN NGÀNH</th>
+    <th>MÃ NGÀNH</th>
+    <th>TỔ HỢP XÉT TUYỂN</th>
+    <th>THỜI GIAN ĐÀO TẠO</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Quản trị Kinh doanh</td>
+    <td rowspan="2">7340101</td>
+    <td rowspan="6">A00, A01, C00, D01</td>
+    <td rowspan="8">8 Kỳ học (4 năm)</td>
+  </tr>
+  <tr>
+    <td>Chuyên ngành Marketing</td>
+  </tr>
+  <tr>
+    <td>Tài chính Ngân hàng</td>
+    <td>7340201</td>
+  </tr>
+  <tr>
+    <td>Kế toán</td>
+    <td>7340301</td>
+  </tr>
+  <tr>
+    <td>Luật</td>
+    <td>7380101</td>
+  </tr>
+  <tr>
+    <td>Ngôn ngữ Anh</td>
+    <td>7220201</td>
+  </tr>
+  <tr>
+    <td>Quản trị Khách sạn</td>
+    <td>7810201</td>
+    <td rowspan="2">A00, C00, D01, D10</td>
+  </tr>
+  <tr>
+    <td>Quản trị Dịch vụ du lịch và Lữ hành</td>
+    <td>7810103</td>
+  </tr>
+</tbody>
+</table>
+<ul>
+<p>Trường Đại học Công nghệ Đông Á tuyển sinh bằng hình thức xét tuyển theo 3 phương thức:</p>
+<li>Phương thức 1: Xét tuyển – Xét tuyển dựa trên học bạ THPT – Xét tuyển dựa trên kết quả thi THPT Quốc gia.</li>
+<li>Phương thức 2: Kết hợp giữa thi tuyển và xét tuyển</li>
+<li>Phương thức 3: Sử dụng kết quả thi của kì thi đánh giá năng lực và kết quả thi đánh giá tư duy</li>
+</ul>
+  </div>
+
+<!-- Health Table -->
+<div id="health-table" class="table-container hidden">
+<table class="health">
+<p>
+  Trường Đại học Công nghệ Đông Á là trường đại học ứng dụng, đào tạo đa ngành với 3 hệ: Đại học và Sau đại học cùng nhiều loại hình đào tạo: Liên thông và Chính quy. Hiện nay, Trường đang đào tạo 17 ngành đại học chính quy và 02 ngành Sau đại học (Kế toán, Quản trị kinh doanh).
+</p>
+<thead>
+  <tr>
+    <th>TÊN NGÀNH</th>
+    <th>MÃ NGÀNH</th>
+    <th>TỔ HỢP XÉT TUYỂN</th>
+    <th>THỜI GIAN ĐÀO TẠO</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Dược học</td>
+    <td>7720201</td>
+    <td>A00, A02, B00, D07</td>
+    <td>9 Kỳ học (4,5 năm)</td>
+  </tr>
+  <tr>
+    <td>Điều dưỡng</td>
+    <td>7720301</td>
+    <td>A00, A02, B00, D07</td>
+    <td>8 Kỳ học (4 năm)</td>
+  </tr>
+</tbody>
+</table>
+<ul>
+<p>Trường Đại học Công nghệ Đông Á tuyển sinh bằng hình thức xét tuyển theo 3 phương thức:</p>
+<li>Phương thức 1: Xét tuyển – Xét tuyển dựa trên học bạ THPT – Xét tuyển dựa trên kết quả thi THPT Quốc gia.</li>
+<li>Phương thức 2: Kết hợp giữa thi tuyển và xét tuyển</li>
+<li>Phương thức 3: Sử dụng kết quả thi của kì thi đánh giá năng lực và kết quả thi đánh giá tư duy</li>
+</ul>
+</div>
+<!-- English Table -->
+<div id="english-table" class="table-container hidden">
+<table class="english">
+<p>
+  Trường Đại học Công nghệ Đông Á là trường đại học ứng dụng, đào tạo đa ngành với 3 hệ: Đại học và Sau đại học cùng nhiều loại hình đào tạo: Liên thông và Chính quy. Hiện nay, Trường đang đào tạo 17 ngành đại học chính quy và 02 ngành Sau đại học (Kế toán, Quản trị kinh doanh).
+</p>
+<thead>
+  <tr>
+    <th>TÊN NGÀNH</th>
+    <th>THEO CHƯƠNG TRÌNH</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Quản trị kinh doanh học bằng tiếng anh</td>
+    <td>Theo chương trình ĐH Texas & ĐH Toronto</td>
+  </tr>
+  <tr>
+    <td>Công nghệ thông tin học bằng tiếng anh</td>
+    <td>Theo chuẩn ITPEC (Nhật Bản)</td>
+  </tr>
+</tbody>
+</table>
+<ul>
+<p>Trường Đại học Công nghệ Đông Á tuyển sinh bằng hình thức xét tuyển theo 3 phương thức:</p>
+<li>Phương thức 1: Xét tuyển – Xét tuyển dựa trên học bạ THPT – Xét tuyển dựa trên kết quả thi THPT Quốc gia.</li>
+<li>Phương thức 2: Kết hợp giữa thi tuyển và xét tuyển</li>
+<li>Phương thức 3: Sử dụng kết quả thi của kì thi đánh giá năng lực và kết quả thi đánh giá tư duy</li>
+</ul>
+  </div>
+</div>
+</section>
+</main>
+
+<footer id="section-footer" class="section-footer">
+<div class="ws-section-box ws-drag-here" data-id="205503" id="module-205503">
+  <section class="w45-footer ws-section module-2035 1" id="section-205503" data-class=".module-2035" data-type="footer" module-id="205503">
+    <div class="w45-footer__group">
+      <div class="w45-footer-col">
+        <div class="w45-footer__brand">
+          <a class="w45-footer__brand__a ws-light__a" href="/">
+            <figure class="w45-footer__brand__imgbox" >
+              <img class="ladi-img-key" data-key="logo-2035" data-class=".module-2035 .ladi-img-key" src="/myapp/btnhom/fontend/view/images/logo-1.png" data-type="landing" alt="ĐẠI HỌC CÔNG NGHỆ ĐÔNG Á">
+            </figure>
+          </a>
+          
+        </div>
+      </div>
+      <div class="w45-footer-col">
+        <div class="w45-footer__item">
+          <a class="w45-footer__item__title ladi ladi-footer-name" data-id="158816">HÀ NỘI</a>
+          <div class="w45-footer__item__des"></div>
+          <div class="w45-footer__item__connect">
+            <div class="w45-footer__item__connect__info">
+              <i class="w45-footer__item__connect__info__icon ladi-icon fas fa-angle-right" footer-id="158817"></i>
+              <a class="w45-footer__item__connect__info__text ladi ladi-footer-name" data-id="158817"><b>ĐẠI HỌC CÔNG NGHỆ ĐÔNG Á</b></a>
+            </div>
+            <div class="w45-footer__item__connect__info">
+              <i class="w45-footer__item__connect__info__icon ladi-icon fas fa-angle-right" footer-id="158819"></i>
+              <a class="w45-footer__item__connect__info__text ladi ladi-footer-name" data-id="158819">Tòa nhà Polyco, đường Trịnh Văn Bô, Nam Từ Liêm, Hà Nội</a>
+            </div>
+            <div class="w45-footer__item__connect__info">
+              <i class="w45-footer__item__connect__info__icon ladi-icon fas fa-angle-right" footer-id="158818"></i>
+              <a class="w45-footer__item__connect__info__text ladi ladi-footer-name" data-id="158818"><b>Điện thoại: </b>0243.555.2008</a>
+            </div>
+            <div class="w45-footer__item__connect__info">
+              <i class="w45-footer__item__connect__info__icon ladi-icon fal fa-caret-right" footer-id="158820"></i>
+              <a class="w45-footer__item__connect__info__text ladi ladi-footer-name" data-id="158820"><b>Email: </b>tuyensinh@eaut.edu.vn</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="w45-footer-col">
+        <div class="w45-footer__item">
+          <a class="w45-footer__item__title ladi ladi-footer-name" data-id="158821">BẮC NINH</a>
+          <div class="w45-footer__item__des"></div>
+          <div class="w45-footer__item__connect">
+            <div class="w45-footer__item__connect__info">
+              <i class="w45-footer__item__connect__info__icon ladi-icon fas fa-angle-right" footer-id="158822"></i>
+              <a href="/cam-ket-ban-hang/" class="w45-footer__item__connect__info__text ladi ladi-footer-name" data-id="158822"><b>ĐẠI HỌC CÔNG NGHỆ ĐÔNG Á</b></a>
+            </div>
+            <div class="w45-footer__item__connect__info">
+              <i class="w45-footer__item__connect__info__icon ladi-icon fas fa-angle-right" footer-id="158823"></i>
+              <a href="/che-do-bao-hanh/" class="w45-footer__item__connect__info__text ladi ladi-footer-name" data-id="158823">Làng Đại học, Phường Võ Cường, Bắc Ninh</a>
+            </div>
+            <div class="w45-footer__item__connect__info">
+              <i class="w45-footer__item__connect__info__icon ladi-icon fas fa-angle-right" footer-id="158824"></i>
+              <a href="/phuong-thuc-giao-dich/" class="w45-footer__item__connect__info__text ladi ladi-footer-name" data-id="158824"><b>Điện thoại:</b> 0243.555.2008</a>
+            </div>
+            <div class="w45-footer__item__connect__info">
+              <i class="w45-footer__item__connect__info__icon ladi-icon fas fa-angle-right" footer-id="158825"></i>
+              <a href="/dieu-khoan-dich-vu/" class="w45-footer__item__connect__info__text ladi ladi-footer-name" data-id="158825">Email: tuyensinh@eaut.edu.vn</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <input type="hidden" value="/footer/index?categoryid=0" class="hd_link_section" />
+  </section>
+</div>
+
+</footer>
+
+<script src="/myapp/btnhom/fontend/view/js/app.js"></script>
+</body>
+</html>

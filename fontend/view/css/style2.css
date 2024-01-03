@@ -1,0 +1,622 @@
+
+body {
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  img {
+    transition: border 0.3s ease; /* Thêm hiệu ứng chuyển đổi mượt mà */
+  }
+  
+  img:hover {
+    border: 1px dashed #000; /* Thêm đường viền 1px nét chấm màu đen khi di chuột qua */
+  }
+  
+  /* Top Section with Tel and Search */
+  .top-section {
+    background-color: #1e3769;
+    color: #ff705a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vw; /* Sử dụng vw cho padding thay vì px */
+  }
+  
+  .tel-search {
+    display: flex;
+    align-items: center;
+  }
+  .search {
+    position: relative;
+    margin-left: 60vw; /* Adjust this value as needed */
+  }
+  
+  .search img{
+    width: 3vw;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  .search img:hover{
+    background-color: #ff705a;
+    border-radius: 50%;
+  
+  }
+  
+  
+  .tel {
+    margin-left: 100px;
+    font-weight: bold;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(253, 254, 254); /* Màu nền mới của header */
+    padding: 10px; /* Thêm padding để tạo khoảng trắng xung quanh */
+  }
+  
+  .container-logo img {
+    width: 15vw; /* Sử dụng vw cho kích thước logo thay vì px */
+    margin-left: 5vw; 
+    border: none; /* Loại bỏ đường viền */
+    transition: border 0.3s ease; /* Thêm hiệu ứng chuyển đổi mượt mà */
+  }
+  
+  /* Hover effect on container */
+  .container-logo:hover img {
+    transform: none !important; 
+    border: none; /* Loại bỏ đường viền khi hover */
+  }
+  
+  .admission-student-buttons {
+    display: flex;
+    margin-right: 5vw; /* Khoảng cách giữa nút menu và nút admission và student */
+  }
+  
+  /* CSS cho button Tuyển Sinh và Thông Tin */
+  .admission-button,
+  .student-button {
+      /* Các quy tắc kiểu chung cho cả hai nút */
+      display: inline-block;
+      padding: 10px 20px;
+      margin: 0 10px;
+      font-size: 16px;
+      text-align: center;
+      text-decoration: none;
+      border: 2px solid #fff;
+      border-radius: 5px;
+      color: #fff;
+      background-color: #1e3769;
+      transition: background-color 0.3s ease;
+  }
+  
+  /* Hover effect */
+  .admission-button:hover,
+  .student-button:hover {
+      background-color: white; /* Màu nền khi hover */
+      color:black;
+      border: 2px solid rgb(10, 31, 41);
+  }
+  
+  
+  /* Menu Styling */
+  .container-menu {
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 80px;
+    margin-top: -20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 15px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: rgb(10, 31, 41);
+    font-weight: bold;
+  }
+  .container-menu ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    transition: color 0.3s ease; /* Hiệu ứng màu chữ khi hover */
+  }
+  
+  /* Hover effect */
+  .container-menu ul li a:hover {
+    color: #ff705a; /* Màu chữ khi hover */
+  }
+  /* Slider Styling */
+  #slider {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .container-slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out; /* Added transition for smooth effect */
+  }
+  
+  .container-slider img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .arrow {
+    display: none;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 24px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px; /* Centering the arrow icon vertically */
+    transition: background-color 0.3s ease; /* Added transition for smooth effect */
+  }
+  
+  
+  .arrow:hover {
+  
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background on hover */
+  }
+  
+  .left-arrow {
+    left: 20px;
+  }
+  
+  .right-arrow {
+    right: 20px;
+  }
+  #slider {
+    position: relative;
+  }
+  
+  .container-slider {
+    position: relative;
+  }
+  
+  .slider-dots {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 10px; /* Điều chỉnh khoảng cách từ phía trên */
+    width: 100%;
+  }
+  
+  .dot {
+    height: 10px;
+    width: 10px;
+    margin: 0 5px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+  }
+  
+  .active {
+    background-color: gray; /* Thay đổi màu cho dấu chấm đang hiển thị */
+  }
+  
+  .items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: linear-gradient(hsla(217.5deg, 45%, 31.37%, 0.7), hsla(217.5deg, 45%, 31.37%, 0.7)), url('/myapp/btnhom/fontend/view/images/dai-hoc-cong-nghie-dong-a-1.jpg') center top/cover no-repeat;  padding: 2vw; /* Sử dụng vw cho padding thay vì px */
+    color: white;
+  }
+  .items h2 {
+    margin: 0; /* Đặt margin về 0 để căn giữa h2 */
+    border-bottom: 2px solid orange; /* Đường gạch chân màu cam dưới h2 */
+    padding-bottom: 10px; /* Khoảng cách giữa h2 và đường gạch chân */
+    margin-left: 500px;
+    color: white;
+    margin-top: 20px;
+    text-align: center; /* Căn giữa nội dung trong container */
+    display: inline-block;
+  }
+  
+  
+  .item-group {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .item {
+    width: 30%;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .iconbox {
+    position: relative;
+    margin-bottom: 10px;
+  }
+  
+  .icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .icon {
+    font-size: 20px;
+  }
+  
+  .main {
+    display: block;
+    color: rgb(244, 113, 33);
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    margin-top: 40px;
+  }
+  
+  .sub {
+    color: #fff;
+    font-size: 0.8em;
+  }
+  .icon-container img {
+    color: #fff;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    padding: 5px;
+    margin-top: 10px;
+  }
+  .item-group.bottom {
+    margin-top: 5vw;
+  }
+  
+  .item-group.bottom .item:nth-child(4) {
+    margin-right: 5vw; /* Di chuyển item 4 sang bên phải */
+  }
+  
+  .item-group.bottom .item:nth-child(5) {
+    margin-left: 5vw; /* Di chuyển item 5 sang bên trái */
+  }
+  
+  .item-group {
+    display: flex;
+  }
+  
+  .item-group .item {
+    flex: 1;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 1200px; /* Adjust this value as needed */
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  h2 {
+    display: inline-block;
+    color: hsla(217.5deg, 45%, 31.37%);
+    border-bottom: 2px solid hsla(217.5deg, 45%, 31.37%);
+  }
+  
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+  }
+  .buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  
+  }
+  
+  .buttons .btn {
+    padding: 10px 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 1px solid hsla(217.5deg, 45%, 31.37%);
+    cursor: pointer;
+    color: hsla(217.5deg, 45%, 31.37%);
+    transition: all 0.3s ease;
+    position: relative;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-right: 10px;
+  }
+  
+  .buttons .btn:hover {
+    box-shadow: 0 15px 25px hsla(217.5deg, 45%, 31.37%);
+  }
+  .major {
+    width: 100%;
+    margin: 10px;
+    overflow: hidden;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+    display: none;
+  }
+  
+  
+  .major-details li {
+    list-style: none;
+    margin-bottom: 10px;
+  }
+  
+  .major-description {
+    margin-top: 10px;
+  }
+  
+  .major img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .major-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .major-description {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .list-unstyled {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .list-unstyled li {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .major-details {
+    overflow: auto; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  .major-details ul {
+    display: flex;
+    justify-content: center;
+    flex: 0 0 calc(33.33% - 20px); /* 33.33% width with margin between */
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    margin-right: 10px; /* Khoảng cách giữa các thẻ ul */
+  }
+  .major-details ul li {
+    display: inline-block;
+    margin: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .major-details ul li img {
+    width: 100%; /* Adjust this value as needed */
+    height: 300px; /* Adjust this value as needed */
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transform: scale(0.9);
+    
+  }
+  .major-details ul li img:hover{
+    transform: scale(1);
+    transition: 0.5s;
+  
+  }
+  .major-details ul li .major-description {
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  
+  .major#economics {
+    display: block;
+  }
+  h3{
+    
+    color:hsla(217.5deg, 45%, 31.37%);
+  }
+  #section-footer {
+    background-color: hsl(219.74deg 59.69% 25.29%);
+    padding: 20px 0;
+    color: white;
+  }
+  
+  .w45-footer__group {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  
+  .w45-footer-col {
+    flex: 1 1 200px;
+    margin-bottom: 20px;
+  }
+  
+  .w45-footer__brand__a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .w45-footer__brand__imgbox {
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .w45-footer__item__title {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .w45-footer__item__connect__info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .w45-footer__item__connect__info__icon {
+    margin-right: 5px;
+  }
+  
+  .w45-footer__item__connect__info__text {
+    color: white;
+    text-decoration: none;
+  }
+  table {
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: hsl(219.74deg 59.69% 25.29%);
+  }
+  
+  th, td {
+    border: 1px solid white;
+    text-align: left;
+    padding: 10px;
+  }
+  
+  th {
+    background-color: hsl(219.74deg 59.69% 25.29%);
+  }
+  .admissions h2 {
+    margin-bottom: 30px;
+    border-bottom: none;
+    background-image: url('./img/Asset-12.png');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    padding-bottom: 20px; /* Adjust this value based on your image size */
+  }
+  .admissions-buttons button {
+    padding: 10px 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 1px solid hsla(217.5deg, 45%, 31.37%);
+    cursor: pointer;
+    color: hsla(217.5deg, 45%, 31.37%);
+    transition: all 0.3s ease;
+    position: relative;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-right: 10px;
+  }
+  
+  
+  .admissions-buttons button:hover {
+    box-shadow: 0 15px 25px hsla(217.5deg, 45%, 31.37%);
+  
+  }
+  .table-container {
+    background-color: hsl(219.74deg 59.69% 25.29%);
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .table-container table {
+    width: 100%;
+    background-color: inherit;
+  }
+  
+  .table-container p,
+  .table-container ul {
+    word-wrap: break-word;
+    white-space: pre-line;
+    text-indent: 0;
+    text-align: left;
+    color: white;
+    margin: 0;
+  }
+  
+  .table-container ul li {
+    text-indent: 0;
+    padding-bottom: 5px;
+    text-align: left;
+  }
+  
+  .table-container ul p {
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  .copyright a {
+    text-decoration: none;
+    color: white;
+  }
+  .copyright {
+    background-color: hsl(219.74deg 59.69% 25.29%);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 20px 0;
+    width: 100%;
+    text-align: center;
+  }
